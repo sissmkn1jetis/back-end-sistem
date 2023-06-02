@@ -3,14 +3,14 @@ const routes = [
         method: '*',
         path: '/',
         handler: (request, h) => {
-            return 'Halaman tidak dapat diakses dengan method tersebut';
+            return 'Halaman tidak dapat diakses dengan method tersebut V3';
         },
     },
     {
         method: 'GET',
         path: '/',
         handler: (request, h) => {
-            return 'Homepage V2';
+            return 'Homepage V3';
         },
     },
 ];
